@@ -8,7 +8,7 @@
 # replace "ghostserver" with your actual server url
 # replace "you.github.io" with your github pages url
 
-gssg --domain "http://www.imagefactory.bg/ghost/" --dest "docs" --url 'https://imagefactory.github.io/website/'
+gssg --productionDomain "http://www.imagefactory.bg" --dest "docs" --url 'https://imagefactory.github.io/website/'
 
 # prepare changes for git
 git add * && \
